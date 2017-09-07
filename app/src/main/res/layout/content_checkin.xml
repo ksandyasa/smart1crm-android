@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver_bg">
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_nav_bar"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo_nav_bar" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llHeader"
+        android:paddingBottom="24dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/bg_current_time_blue"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginTop="48dp" >
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="@string/current_time_ind"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        app:customFont="OpenSans-Regular.ttf" />
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvClock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        tools:text="08:00"
+                        android:textColor="@color/white"
+                        android:textSize="45dp"
+                        app:customFont="OpenSans-Semibold.ttf"
+                        />
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="a.m"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        app:customFont="OpenSans-Regular.ttf"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/tvNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:text="time left before check in hour"
+                android:textColor="@color/darkblue_header"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:customFont="OpenSans-Regular.ttf"/>
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/tvCountdownCheckin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:text="01:00:05"
+                android:textColor="@color/darkblue_header"
+                android:textSize="80dp"
+                app:customFont="OpenSans-Semibold.ttf"/>
+
+            <Button
+                android:id="@+id/btnCheckin"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_login_click"
+                android:text="@string/check_in_ind"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="48dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/cbRemindMe"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:button="@drawable/cb_remindme_selector" />
+
+                <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remind_me_ind"
+                    app:customFont="OpenSans-Semibold.ttf"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/button_x_logout" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

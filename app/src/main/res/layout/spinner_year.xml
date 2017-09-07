@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+    android:id="@+id/tvSpinner"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/font.16"
+    android:gravity="left|center_vertical"
+    android:tag="industry"
+    android:textColor="@color/colorPrimaryDark"
+    android:padding="5dip"
+    android:background="@color/white"
+    app:customFont="OpenSans-Regular.ttf"
+    />

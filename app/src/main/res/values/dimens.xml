@@ -1,0 +1,82 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Font Size -->
+    <dimen name="font.12">12sp</dimen>
+    <dimen name="font.14">14sp</dimen>
+    <dimen name="font.16">16sp</dimen>
+    <dimen name="font.18">18sp</dimen>
+    <dimen name="font.20">20sp</dimen>
+    <dimen name="font.24">24sp</dimen>
+    <dimen name="font.34">34sp</dimen>
+    <dimen name="font.52">52sp</dimen>
+
+    <!-- Line Height -->
+    <dimen name="line.8">8dp</dimen>
+    <dimen name="line.20">20dp</dimen>
+    <dimen name="line.24">24dp</dimen>
+    <dimen name="line.28">28dp</dimen>
+    <dimen name="line.32">32dp</dimen>
+    <dimen name="line.40">40dp</dimen>
+    <dimen name="line.48">48dp</dimen>
+
+    <!-- Space -->
+    <dimen name="space.0">0dp</dimen>
+    <dimen name="space.4">4dp</dimen>
+    <dimen name="space.8">8dp</dimen>
+    <dimen name="space.16">16dp</dimen>
+    <dimen name="space.24">24dp</dimen>
+    <dimen name="space.36">36dp</dimen>
+    <dimen name="space.40">40dp</dimen>
+    <dimen name="space.48">48dp</dimen>
+    <dimen name="space.56">56dp</dimen>
+    <dimen name="space.72">72dp</dimen>
+
+
+    <item name="parallax_speed_slow" format="float" type="dimen">2.5</item>
+    <item name="parallax_speed_slow_rev_2" format="float" type="dimen">-0.5</item>
+    <item name="parallax_speed_slow_rev_2_plus" format="float" type="dimen">0.5</item>
+    <item name="parallax_speed_medium" format="float" type="dimen">5.0</item>
+    <item name="parallax_speed_fast" format="float" type="dimen">10.0</item>
+    <item name="parallax_speed_very_fast" format="float" type="dimen">20.0</item>
+    <item name="parallax_speed_slow_rev" format="float" type="dimen">-2.5</item>
+    <item name="parallax_speed_medium_rev" format="float" type="dimen">-5.0</item>
+    <item name="parallax_speed_fast_rev" format="float" type="dimen">-10.0</item>
+
+    <!-- UNIVERSAL VALUE -->
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="header_button_width_height">40dp</dimen>
+    <dimen name="divider_height">3dp</dimen>
+    <dimen name="search_height">40dp</dimen>
+    <dimen name="search_height_insideBox">32dp</dimen>
+
+    <dimen name="textsize_forall_edittext">16dp</dimen>
+
+    <!-- Splash -->
+    <!-- Login -->
+    <!-- Login Confirmation -->
+
+    <!-- Check IN -->
+
+    <!-- Dashboard -->
+    <dimen name="ivlogout_marginBottom">30dp</dimen>
+    <dimen name="vpDashboard_marginBottom">36dp</dimen>
+    <dimen name="vpdashboard_margin_forpageitem">40dp</dimen>
+
+    <!-- Leads -->
+    <dimen name="index_textsize">6dp</dimen>
+
+    <!-- Leads ADD -->
+    <dimen name="scrollview_padding">20dp</dimen>
+    <dimen name="selecttitle_width">80dp</dimen>
+    <dimen name="selecttitle_height">40dp</dimen>
+
+    <!-- Leads Detail -->
+    <dimen name="container_height">480dp</dimen>
+
+    <!-- ACCOUNT -->
+
+    <!-- ACCOUNT ADD -->
+</resources>

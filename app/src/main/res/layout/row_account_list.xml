@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/llDetailStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customer_bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+        <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:textColor="@color/colorPrimary"
+            app:customFont="OpenSans-Regular.ttf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvAccountName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Account Name"
+                        android:textColor="@color/color_title"
+                        android:textSize="16dp"
+                        app:customFont="OpenSans-Semibold.ttf" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal" >
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/industry_ind"
+                                android:textColor="@color/color_title"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Semibold.ttf" />
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:id="@+id/tvIndustry"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="0.5"
+                                android:text="Food manufacturer"
+                                android:textColor="@color/Leads_date"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Light.ttf" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal" >
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="@string/contact_numbers_ind"
+                                android:textColor="@color/color_title"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Semibold.ttf" />
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:id="@+id/tvPhone"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="0.5"
+                                android:text="0878723872"
+                                android:textColor="@color/Leads_date"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Light.ttf" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal" >
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="Alamat"
+                                android:textColor="@color/color_title"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Semibold.ttf" />
+
+                            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                                android:id="@+id/tvEmail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="0.5"
+                                android:text="food_manufacturer@gmail.com"
+                                android:textColor="@color/Leads_date"
+                                android:textSize="12sp"
+                                app:customFont="OpenSans-Light.ttf" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

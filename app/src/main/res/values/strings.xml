@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Smart1Crm</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Feature -->
+    <string name="dashboard">Dashboard</string>
+    <string name="order.add">Add Task</string>
+    <string name="task.finish">Task Selesai</string>
+    <string name="kpi">KPI</string>
+
+    <!-- Button -->
+    <string name="btn.home">Selesai</string>
+    <string name="btn_pickup">Pick-up</string>
+    <string name="btn_delivery">Delivery</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_update">Perbarui</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_take_pict">Choose Pict</string>
+    <string name="btn_yes">Yes, I am</string>
+    <string name="btn_no">No, I am not</string>
+    <string name="check_in_ind">MASUK</string>
+    <string name="remind_me_ind">Ingatkan saya lain kali</string>
+    <string name="current_time_ind">Jam Sekarang</string>
+
+    <!-- Spinner Prompt -->
+    <string name="prompt.choose">Pilih Customer</string>
+    <string name="prompt.account">Nama</string>
+    <string name="prompt.address">Alamat</string>
+    <string name="prompt.notes">Catatan</string>
+    <string name="prompt.month">Bulan</string>
+    <string name="prompt.year">Tahun</string>
+
+    <!-- Data -->
+    <string name="scheme">mobilesalesforce</string>
+
+    <string name="error.login">Login Failed. Check your password.</string>
+    <string name="error.task">Mohon periksa koneksi internet anda.</string>
+
+    <string name="title.task.finish">Laporan Sudah Tersimpan</string>
+    <string name="desc.kpi">Jumlah tugas yang sudah dilakukan pada %1$s %2$s adalah sebagai berikut :</string>
+
+    <string name="account_ind">Akun</string>
+    <string name="contact_numbers_ind">Account Name</string>
+    <string name="industry_ind">Account Code</string>
+    <string name="external_dir">GetSignature</string>
+
+</resources>

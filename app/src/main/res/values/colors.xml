@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#184378</color>
+    <color name="colorPrimaryDark">#143866</color>
+    <color name="colorAccent">#184378</color>
+
+    <!-- Gray Scale --><!--
+    <color name="black">#000000</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>-->
+
+    <!-- Transparent -->
+    <color name="black_99">#99000000</color>
+    <color name="green_600">#43A047</color>
+
+    <!--<color name="color_title">#2a4978</color>
+    <color name="darkblue_header">#2A4978</color>
+    <color name="login_error_message_red">#c11f24</color>-->
+
+    <!-- login conf -->
+    <color name="color_title">#2a4978</color>
+    <color name="color_field">#363636</color>
+    <color name="color_title_alt">#363636</color>
+    <color name="color_title_alt2">#494949</color>
+
+    <color name="kpi_kpi_color">#003663</color>
+    <color name="graph_bg">#6f7b8e</color>
+    <color name="graph_goodperform">#e5e1c5</color>
+    <color name="graph_badperform">#c9934c</color>
+    <color name="stage_opor">#707070</color>
+    <color name="search_color">#5e6a79</color>
+    <color name="take_order_color">#252525</color>
+    <color name="total_product_color">#7d7d7d</color>
+    <color name="hint_color">#c2c2c2</color>
+
+    <!-- Leads -->
+    <color name="leads_phone">#636363</color>
+    <color name="Leads_date">#363636</color>
+    <color name="sub_title_color">#003663</color>
+
+    <color name="competitor_bg">#962a4e</color>
+    <color name="login_error_message_red">#c11f24</color>
+    <color name="trans_gray">#80808080</color>
+    <color name="gray">#808080</color>
+    <color name="gray_search">#465367</color>
+    <color name="trans_gray_search">#80465367</color>
+    <color name="gray_search_rect">#596B84</color>
+    <color name="lightslategray">#778899</color>
+    <color name="darkgray">#404040</color>
+    <color name="lightgray">#c0c0c0</color>
+    <color name="invalid_lightgray">#979fb7</color>
+    <color name="nickname">#4B4948</color>
+    <color name="grey_profile">#6d6d72</color>
+    <color name="navigationbar_back_color">#606060</color>
+    <color name="blue">#0D6AB0</color>
+    <color name="blue_bg_gradient_side">#BBC5D5</color>
+    <color name="gold_bg_gradient_side">#D5CCBC</color>
+    <color name="white_bg_gradient_middle">#ECEFF5</color>
+    <color name="messagebar_back_color">#d0404040</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="darkblue">#002080</color>
+    <color name="darkblue_header">#2A4978</color>
+    <color name="darkblue_divider">#002B5B</color>
+    <color name="red">#ff0000</color>
+    <color name="red_input_info">#808080</color>
+    <color name="orange">#ff8000</color>
+    <color name="alphablack">#80000000</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="trans_hotpink">#bbff69b4</color>
+    <color name="green">#008800</color>
+    <color name="light_green">#B3FAAF</color>
+    <color name="trans_aqua">#8880CDE3</color>
+    <color name="trans_white">#88FFFFFF</color>
+    <color name="aqua">#80CDE3</color>
+    <color name="dark_blue">#5993A3</color>
+    <color name="yellow">#FFF798</color>
+    <color name="note_detail">#555555</color>
+
+    <!-- タイトル -->
+    <color name="color_title_text">#ffffa500</color>
+    <color name="color_title_background">#00000000</color>
+    <!-- 罫線 -->
+    <color name="color_line">#ffc0c0c0</color>
+    <!-- 設定画面 -->
+    <color name="color_set_text">#ff000000</color>
+    <!-- 品目編集画面 -->
+    <color name="color_receipt_item_text">#ff000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

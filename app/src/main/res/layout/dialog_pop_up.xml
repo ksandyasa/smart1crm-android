@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/popup_bg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/popup_header_bg"
+                android:gravity="center"
+                android:text="CONFIRMATION"
+                android:textColor="@color/white"
+                app:customFont="Quicksand_Bold.otf"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_box_bg"
+                android:orientation="vertical">
+
+                <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                    android:id="@+id/tvText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Are You Sure You Want to Delete"
+                    android:textColor="@color/color_title"
+                    app:customFont="OpenSans-Bold.ttf"/>
+                <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                    android:id="@+id/tvText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="item name?"
+                    android:textColor="@color/color_title"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:customFont="OpenSans-Bold.ttf"/>
+
+                <LinearLayout
+                    android:id="@+id/llYesNO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvYes"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_login_click"
+                        android:gravity="center"
+                        android:text="YES"
+                        android:textColor="@color/white"
+                        app:customFont="Quicksand_Bold.otf"/>
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvNo"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/button_login_click"
+                        android:gravity="center"
+                        android:text="NO"
+                        android:textColor="@color/white"
+                        app:customFont="Quicksand_Bold.otf"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llOK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                        android:id="@+id/tvOk"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_login_click"
+                        android:gravity="center"
+                        android:text="OK"
+                        android:textColor="@color/white"
+                        app:customFont="Quicksand_Bold.otf"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

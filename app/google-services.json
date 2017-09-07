@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "851998730983",
+    "firebase_url": "https://ekamant-f64a5.firebaseio.com",
+    "project_id": "ekamant-f64a5",
+    "storage_bucket": "ekamant-f64a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851998730983:android:73d8f6b8a5c8b963",
+        "android_client_info": {
+          "package_name": "com.sales1crm.ekamant.sales1crm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851998730983-hg6djg44vom9c6l5ak0dq8mb8c5bkel0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{"current_key":"AIzaSyCVN31RV0RPpsu1py30sRKrLyY1kNFu8Tg"}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

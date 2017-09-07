@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/silver_bg">
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_nav_bar"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo_nav_bar" />
+    </LinearLayout>
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:text="Hello User!"
+        android:layout_marginTop="@dimen/space.16"
+        app:customFont="OpenSans-Semibold.ttf"
+        />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.RoundedImageView
+        android:id="@+id/image_prof_pict"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/space.24"
+        android:background="@drawable/avatar_placeholder"
+        app:corner_radius="10dip"
+        app:is_oval="true"
+        app:round_background="true"/>
+    
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space.24"
+        android:text="Company"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pt. Sales Indonesia"
+        android:textColor="@android:color/black"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space.16"
+        android:text="Full Name"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matthew Lim"
+        android:textColor="@android:color/black"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space.16"
+        android:text="Position"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/text_position_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sales Manager"
+        android:textColor="@android:color/black"
+        app:customFont="OpenSans-Semibold.ttf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/space.4"
+            android:minHeight="@dimen/space.0"
+            android:paddingBottom="@dimen/space.8"
+            android:paddingTop="@dimen/space.8"
+            android:text="@string/btn_yes"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/space.24"
+            android:layout_height="@dimen/space.24"/>
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/space.4"
+            android:minHeight="@dimen/space.0"
+            android:paddingBottom="@dimen/space.8"
+            android:paddingTop="@dimen/space.8"
+            android:text="@string/btn_no"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver_bg">
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_nav_bar">
+
+        <RelativeLayout
+            android:id="@+id/rlBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_left_arrow"/>
+        </RelativeLayout>
+
+        <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Tanda Tangan Customer"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:customFont="OpenSans-Regular.ttf"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llHeader"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".30"
+                android:background="@drawable/button_login_click"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                app:customFont="OpenSans-Regular.ttf"/>
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight=".3"
+                android:background="@drawable/button_login_click"
+                android:gravity="center"
+                android:text="Clear"
+                android:textColor="@color/white"
+                app:customFont="OpenSans-Regular.ttf"/>
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/getsign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight=".3"
+                android:background="@drawable/button_login_click"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="@color/white"
+                app:customFont="OpenSans-Regular.ttf"/>
+        </LinearLayout>
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/signature_pad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:penColor="@android:color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>

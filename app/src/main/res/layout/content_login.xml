@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver_bg"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_edittext"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/passcode_input_bg"
+            android:ellipsize="end"
+            android:hint="Enter Your Passcode"
+            android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textSize="14dp"/>
+
+        <ImageView
+            android:id="@+id/ivClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/etPassword"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/clear_input_button"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/tvWrongLogin"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="passCode wrong!!"
+        android:textColor="@color/login_error_message_red"
+        android:visibility="gone"
+        app:customFont="OpenSans-Semibold.ttf"/>
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/tvForgotPassCode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Don&apos;t have a passcode?"
+        android:textColor="@color/darkblue_header"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+    <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+        android:id="@+id/tvLogin"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_login_click"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:customFont="Quicksand_Bold.otf"/>
+
+</LinearLayout>

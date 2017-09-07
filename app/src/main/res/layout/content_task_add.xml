@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silver_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_nav_bar">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/space.8"
+                android:padding="@dimen/space.16"
+                android:src="@drawable/ic_left_arrow" />
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/text_header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/order.add"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font.20"
+                app:customFont="OpenSans-Regular.ttf" />
+
+        </RelativeLayout>
+
+        <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+            android:id="@+id/text_account_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space.16"
+            android:background="@color/white"
+            android:padding="@dimen/space.8"
+            android:text="@string/prompt.choose"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font.18" />
+
+        <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+            android:id="@+id/text_customer_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space.16"
+            android:layout_marginRight="@dimen/space.16"
+            android:padding="@dimen/space.8"
+            android:background="@color/white"
+            android:text="@string/prompt.address"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font.18" />
+
+        <EditText
+            android:id="@+id/edit_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space.16"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="@string/prompt.notes"
+            android:lines="10"
+            android:padding="@dimen/space.8"
+            android:imeOptions="actionDone"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/font.20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space.16"
+            android:orientation="horizontal">
+
+            <com.sales1crm.ekamant.sales1crm.activities.widgets.CustomTextView
+                android:id="@+id/text_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space.8"
+                android:text="Apakah menerima pesanan ?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font.16" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space.16"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="Iya"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font.16" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="Tidak"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font.16" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space.8"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/btn_take_pict1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space.8"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:minHeight="@dimen/space.0"
+                android:paddingBottom="@dimen/space.8"
+                android:paddingTop="@dimen/space.8"
+                android:text="Foto 1"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/btn_take_pict2"
+                app:layout_constraintTop_toBottomOf="@+id/radio_group_order"
+                tools:layout_editor_absoluteX="30dp" />
+
+            <Button
+                android:id="@+id/btn_take_pict2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space.8"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:minHeight="@dimen/space.0"
+                android:paddingBottom="@dimen/space.8"
+                android:paddingTop="@dimen/space.8"
+                android:text="Foto 2"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/btn_take_pict3"
+                app:layout_constraintStart_toEndOf="@+id/btn_take_pict1"
+                app:layout_constraintTop_toBottomOf="@+id/radio_group_order"
+                tools:layout_editor_absoluteX="148dp" />
+
+            <Button
+                android:id="@+id/btn_take_pict3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space.8"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:minHeight="@dimen/space.0"
+                android:paddingBottom="@dimen/space.8"
+                android:paddingTop="@dimen/space.8"
+                android:text="Foto 3"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_take_pict2"
+                app:layout_constraintTop_toBottomOf="@+id/radio_group_order"
+                tools:layout_editor_absoluteX="266dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space.8"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/space.16"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:minHeight="@dimen/space.0"
+            android:paddingBottom="@dimen/space.8"
+            android:paddingTop="@dimen/space.8"
+            android:text="@string/btn_submit"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
